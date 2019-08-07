@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Estilo del Contenedor-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Estilo del PrimerFragmento-->
+    <style name="primerLayout">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!--Estilo EditText-->
+    <style name="editext">
+        <item name="android:backgroundTint">@color/blanco</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:textColorHint">@color/blanco</item>
+        <item name="android:paddingBottom">30dp</item>
+    </style>
+
+    <!--Estilo Buttons-->
+    <style name="buttonSignin">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_marginTop">45dp</item>
+    </style>
+    <style name="buttonFacebook">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!--Esitlo TexViews-->
+    <style name="txtOlvido">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/txtOlvidarContraseña</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="txtNotieneCuenta">
+        <item name="android:text">@string/notieneCuenta</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PruebaDiseño</string>
+
+    <string name="etNombre">Username</string>
+    <string name="btnIngresar">Sign In</string>
+    <string name="btnFacebook">Login via Facebook</string>
+    <string name="txtOlvidarContraseña">Forgot Password</string>
+    <string name="notieneCuenta">Dont have an account?</string>
+    <string name="sinup">Sing Up</string>
+</resources>
